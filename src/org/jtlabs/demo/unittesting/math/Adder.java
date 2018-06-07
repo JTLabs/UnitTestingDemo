@@ -5,5 +5,5 @@ package org.jtlabs.demo.unittesting.math;
  */
 public interface Adder<T> {
 
-    T add(T... numbers);
+    T add(T num1, T num2);
 }

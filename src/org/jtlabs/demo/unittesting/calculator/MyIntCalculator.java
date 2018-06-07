@@ -3,6 +3,8 @@ package org.jtlabs.demo.unittesting.calculator;
 import org.jtlabs.demo.unittesting.math.IntAdder;
 import org.jtlabs.demo.unittesting.math.IntMultiplier;
 
+import java.util.Arrays;
+
 /**
  * @author jssingla
  */
@@ -18,12 +20,14 @@ public class MyIntCalculator implements MyCalculator<Integer> {
 
     @Override
     public Integer add(final Integer... numbers) {
-        return adder.add(numbers);
+        return Arrays.stream(numbers)
+                     .reduce(0, adder::add);
     }
 
     @Override
     public Integer multiply(final Integer... numbers) {
-        return multiplier.multiply(numbers);
+        return Arrays.stream(numbers)
+                     .reduce(1, multiplier::multiply);
     }
 
     @Override

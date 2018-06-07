@@ -5,5 +5,5 @@ package org.jtlabs.demo.unittesting.math;
  */
 public interface Multiplier<T> {
 
-    T multiply(T... numbers);
+    T multiply(T num1, T num2);
 }

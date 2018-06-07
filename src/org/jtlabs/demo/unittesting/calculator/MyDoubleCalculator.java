@@ -3,6 +3,8 @@ package org.jtlabs.demo.unittesting.calculator;
 import org.jtlabs.demo.unittesting.math.DoubleAdder;
 import org.jtlabs.demo.unittesting.math.DoubleMultiplier;
 
+import java.util.Arrays;
+
 /**
  * @author jssingla
  */
@@ -18,12 +20,14 @@ public class MyDoubleCalculator implements MyCalculator<Double> {
 
     @Override
     public Double add(final Double... numbers) {
-        return adder.add(numbers);
+        return Arrays.stream(numbers)
+                     .reduce(0.0, adder::add);
     }
 
     @Override
     public Double multiply(final Double... numbers) {
-        return multiplier.multiply(numbers);
+        return Arrays.stream(numbers)
+                     .reduce(1.0, multiplier::multiply);
     }
 
     @Override

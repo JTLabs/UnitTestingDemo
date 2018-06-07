@@ -1,15 +1,16 @@
 package org.jtlabs.demo.unittesting.math;
 
-import java.util.Arrays;
-
 /**
  * @author jssingla
  */
 public class DoubleAdder implements Adder<Double> {
 
     @Override
-    public Double add(final Double... numbers) {
-        return Arrays.stream(numbers)
-                     .reduce(0.0, Double::sum);
+    public Double add(final Double one, final Double two) {
+        if (one > Double.MAX_VALUE - two) {
+            throw new IllegalArgumentException("Sum out of range...");
+        }
+
+        return one + two;
     }
 }
