@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa93cff4-90f0-4972-a9e7-43ceb3fa3e5a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/jtlabs/demo/unittesting/sorting/application/rhyme/RhymeWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/jtlabs/demo/unittesting/sorting/application/rhyme/Rhymer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tst/org/jtlabs/demo/unittesting/sorting/application/rhyme/RhymerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tst/org/jtlabs/demo/unittesting/sorting/application/rhyme/RhymerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tst/org/jtlabs/demo/unittesting/sorting/application/rhyme/RhymerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,8 +81,8 @@
       <file leaf-file-name="RhymerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tst/org/jtlabs/demo/unittesting/sorting/application/rhyme/RhymerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+            <state relative-caret-position="-183">
+              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -383,7 +380,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="RhymerTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RhymerTest.testGroupingOfRhymingWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTestingDemo" />
       <extension name="coverage">
         <pattern>
@@ -395,7 +392,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="org.jtlabs.demo.unittesting.sorting.application.rhyme" />
       <option name="MAIN_CLASS_NAME" value="org.jtlabs.demo.unittesting.sorting.application.rhyme.RhymerTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="METHOD_NAME" value="testGroupingOfRhymingWords" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -425,13 +422,13 @@
       <item itemvalue="JUnit.MergeSortTest.sortPositiveIntegers" />
       <item itemvalue="JUnit.MergeSortTest" />
       <item itemvalue="JUnit.MergeSortTest.sortNegativeIntegers" />
-      <item itemvalue="JUnit.RhymerTest.test" />
+      <item itemvalue="JUnit.RhymerTest.testGroupingOfRhymingWords" />
       <item itemvalue="JUnit.RhymerTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RhymerTest" />
-        <item itemvalue="JUnit.RhymerTest.test" />
+        <item itemvalue="JUnit.RhymerTest.testGroupingOfRhymingWords" />
         <item itemvalue="JUnit.MergeSortTest" />
         <item itemvalue="JUnit.MergeSortTest.sortNegativeIntegers" />
         <item itemvalue="JUnit.MergeSortTest.sortPositiveIntegers" />
@@ -448,23 +445,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528295382915</updated>
-      <workItem from="1528295387373" duration="12280000" />
+      <workItem from="1528295387373" duration="12610000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MergeSortTest - 2018.06.06 at 23h 14m 07s.xml">
-      <configuration name="MergeSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSortTest - 2018.06.06 at 23h 14m 52s.xml">
-      <configuration name="MergeSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSortTest - 2018.06.06 at 23h 15m 26s.xml">
-      <configuration name="MergeSortTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MergeSortTest - 2018.06.06 at 23h 19m 02s.xml">
-      <configuration name="MergeSortTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MergeSortTest - 2018.06.06 at 23h 20m 52s.xml">
       <configuration name="MergeSortTest" configurationId="JUnit" />
     </history-entry>
@@ -483,9 +468,21 @@
     <history-entry file="RhymerTest_test - 2018.06.07 at 08h 13m 36s.xml">
       <configuration name="RhymerTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RhymerTest - 2018.06.07 at 08h 30m 55s.xml">
+      <configuration name="RhymerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RhymerTest - 2018.06.07 at 08h 31m 31s.xml">
+      <configuration name="RhymerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RhymerTest - 2018.06.07 at 08h 31m 46s.xml">
+      <configuration name="RhymerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RhymerTest - 2018.06.07 at 08h 31m 55s.xml">
+      <configuration name="RhymerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12280000" />
+    <option name="totallyTimeSpent" value="12610000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -501,7 +498,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32905984" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32956383" />
       <window_info anchor="bottom" id="Terminal" />
@@ -778,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tst/org/jtlabs/demo/unittesting/sorting/application/rhyme/RhymerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        <state relative-caret-position="-183">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

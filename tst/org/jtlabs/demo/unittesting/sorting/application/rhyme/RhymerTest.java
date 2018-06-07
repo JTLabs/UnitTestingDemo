@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class RhymerTest {
 
     @Test
-    void test() {
+    void testGroupingOfRhymingWords() {
         final Rhymer rhymer = new Rhymer();
 
         List<String> rhymedWords = rhymer.rhyme(Arrays.asList("nice",
