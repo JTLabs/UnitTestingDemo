@@ -34,6 +34,7 @@ public class TrieMain {
 
         public void addChild(final Character child) {
             final int childIndex = child - 'a';
+            this.count++;
             if (this.children[childIndex] == null) {
                 this.children[childIndex] = new TrieNode(child);
             } else {
