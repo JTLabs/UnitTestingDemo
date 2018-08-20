@@ -1,4 +1,4 @@
-package org.jtlabs.demo.unittesting.prepare;
+package org.jtlabs.demo.unittesting.learning.deadlockdetection;
 
 import java.lang.management.ManagementFactory;
 

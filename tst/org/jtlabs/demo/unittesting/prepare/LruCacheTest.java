@@ -1,5 +1,6 @@
 package org.jtlabs.demo.unittesting.prepare;
 
+import org.jtlabs.demo.unittesting.learning.LruCache;
 import org.junit.jupiter.api.Test;
 
 /**
