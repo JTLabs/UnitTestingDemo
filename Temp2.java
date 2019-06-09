@@ -18,8 +18,8 @@ import java.util.regex.Pattern;
 
 public class Temp2 {
 
-    private static final String ENDPOINT1 = "https://enigmatic-hamlet-4927.herokuapp.com/posse";
-    private static final String ENDPOINT2 = "https://enigmatic-hamlet-4927.herokuapp.com/posse/";
+    private static final String ENDPOINT1 = "";
+    private static final String ENDPOINT2 = "";
     private static String gameId;
 
     public static void main(String[] args) throws IOException {
