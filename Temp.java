@@ -11,7 +11,7 @@ import java.util.Map;
 public class Temp {
 
     public static void main(String[] args) throws Exception {
-        System.out.println(findPassword("https://afternoon-headland-69107.herokuapp.com"));
+        System.out.println(findPassword(""));
     }
 
     private static String findPassword(String streamingUrl) throws Exception {
